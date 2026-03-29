@@ -100,7 +100,8 @@ export default function RejasParaVentanasPage() {
               paragraphs: [
                 "Con el mantenimiento adecuado, unas rejas de hierro bien fabricadas pueden durar m\u00e1s de 25 a\u00f1os en perfecto estado. El clima h\u00famedo de Santo Domingo exige una rutina de cuidado sencilla pero constante para evitar la corrosi\u00f3n prematura.",
                 "Recomendamos una inspecci\u00f3n visual cada tres meses para detectar puntos de \u00f3xido incipiente. Si aparecen, basta con lijar suavemente el \u00e1rea afectada y aplicar una capa de pintura anticorrosiva. Una repintura completa cada 3 a 5 a\u00f1os mantiene las rejas como nuevas y renueva la protecci\u00f3n contra los elementos.",
-                "Tambi\u00e9n ofrecemos un servicio de mantenimiento profesional que incluye limpieza profunda, eliminaci\u00f3n de \u00f3xido, aplicaci\u00f3n de primer y repintado completo. Es una inversi\u00f3n peque\u00f1a comparada con el costo de reemplazar rejas deterioradas."
+                "Tambi\u00e9n ofrecemos un servicio de mantenimiento profesional que incluye limpieza profunda, eliminaci\u00f3n de \u00f3xido, aplicaci\u00f3n de primer y repintado completo. Es una inversi\u00f3n peque\u00f1a comparada con el costo de reemplazar rejas deterioradas.",
+                "\u00bfSus rejas actuales necesitan mantenimiento? Ofrecemos servicio de reparaci\u00f3n y pintura anticorrosiva profesional. Visite nuestra <a href='/mantenimiento-herreria'>p\u00e1gina de mantenimiento de herrer\u00eda</a> para m\u00e1s informaci\u00f3n."
               ],
               listItems: [
                 "Inspecci\u00f3n visual trimestral de puntos de soldadura",
@@ -108,6 +109,14 @@ export default function RejasParaVentanasPage() {
                 "Retoque de pintura en zonas da\u00f1adas de inmediato",
                 "Repintado completo cada 3-5 a\u00f1os",
                 "Lubricaci\u00f3n de bisagras en rejas abatibles",
+              ],
+            },
+            {
+              title: "Precios de Rejas para Ventanas en Santo Domingo",
+              paragraphs: [
+                "Una reja estándar para ventana cuesta entre RD$4,000 y RD$10,000 por unidad, dependiendo del diseño, las dimensiones y el material. Un proyecto completo de 12 ventanas más balcón con hierro galvanizado e instalación incluida puede rondar los RD$260,000. En Tayer El Buen Pastor le damos cotización exacta según las medidas de su propiedad.",
+                "El hierro negro es el material más económico pero se oxida rápidamente en el clima húmedo de Santo Domingo si no recibe protección adecuada. Por eso en nuestro taller trabajamos preferiblemente con hierro galvanizado como estándar — el recubrimiento de zinc agrega años de vida útil antes de necesitar pintura. Para el acabado final utilizamos un sistema de doble barrera: primer epóxico + poliuretano, que protege las rejas entre 5 y 10 años incluso en zonas costeras.",
+                "En República Dominicana, \"poner los hierros\" a la casa es una de las primeras inversiones que hace todo propietario. Ya sea que busque \"hierros para las ventanas\" o una protección completa para su residencia, fabricamos los hierros para la casa dominicana con la calidad y el diseño que su hogar merece."
               ],
             },
           ]}
@@ -131,6 +140,10 @@ export default function RejasParaVentanasPage() {
             {
               q: "\u00bfOfrecen garant\u00eda en las rejas para ventanas?",
               a: "S\u00ed, todas nuestras rejas incluyen garant\u00eda de 2 a\u00f1os contra defectos de fabricaci\u00f3n y soldadura. La garant\u00eda cubre desprendimiento de pintura prematuro, fallas en puntos de soldadura y deformaciones no causadas por impacto externo. Adem\u00e1s, ofrecemos servicio post-venta para mantenimiento y reparaciones.",
+            },
+            {
+              q: "\u00bfCu\u00e1nto cuesta una reja para ventana en Santo Domingo?",
+              a: "Una reja est\u00e1ndar para ventana cuesta entre RD$4,000 y RD$10,000 por unidad, dependiendo del dise\u00f1o y el material. Proyectos completos con 12 ventanas y balc\u00f3n rondan los RD$260,000 con hierro galvanizado e instalaci\u00f3n incluida. Cont\u00e1ctenos por WhatsApp para una cotizaci\u00f3n exacta seg\u00fan las medidas de su propiedad.",
             },
           ]}
           metaTitle="Rejas para Ventanas en Santo Domingo — Fabricaci\u00f3n e Instalaci\u00f3n"

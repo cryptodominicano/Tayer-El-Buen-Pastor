@@ -100,6 +100,21 @@ En ambos casos, la estructura portante de la escalera se calcula para soportar l
 
 Si está considerando una escalera de caracol en Santo Domingo, en Tayer Christiano le ofrecemos asesoría completa desde el diseño hasta la instalación. Contáctenos por WhatsApp o visite nuestro taller para conocer muestras de trabajos realizados y discutir las posibilidades para su proyecto.`,
   },
+  {
+    id: "precios",
+    title: "Precios de Escaleras de Caracol en República Dominicana",
+    content: `El precio de una escalera de caracol en República Dominicana varía significativamente según el diseño, los materiales y las dimensiones. A continuación una guía de referencia:
+
+Escalera económica (tubo fino, 10 peldaños): desde RD$9,500. Ideal para acceso a azoteas y espacios de uso esporádico.
+
+Escalera estándar (tubo gordo, 10 peldaños): desde RD$10,500. Mayor resistencia y durabilidad para uso diario.
+
+Escalera premium (hierro forjado, gauge pesado): desde RD$13,000 hasta RD$16,000. Diseños decorativos con baranda ornamental.
+
+Escalera de lujo (acero inoxidable con detalles en cristal): desde RD$50,000 por metro lineal. Para proyectos arquitectónicos de alto nivel.
+
+Estos precios son referenciales y varían según la altura piso a piso, el diámetro y los acabados seleccionados. Contáctenos para una cotización personalizada basada en las medidas exactas de su espacio.`,
+  },
 ];
 
 const faqs = [
@@ -127,6 +142,11 @@ const faqs = [
     question: "¿Se puede instalar una escalera de caracol en una construcción existente?",
     answer:
       "Sí, es una de las grandes ventajas de la escalera de caracol. Al ocupar poco espacio y apoyarse principalmente en el poste central, se puede instalar en construcciones existentes con intervención mínima. Solo se necesita un hueco circular en la losa del nivel superior (si no existe) y un punto de anclaje sólido en el piso inferior. Nuestro equipo evalúa la viabilidad estructural antes de iniciar el proyecto.",
+  },
+  {
+    question: "¿Cuánto cuesta una escalera de caracol en República Dominicana?",
+    answer:
+      "Una escalera de caracol económica de 10 peldaños comienza en RD$9,500. Los modelos estándar van desde RD$10,500, los premium en hierro forjado desde RD$13,000 hasta RD$16,000, y las versiones en acero inoxidable con detalles en cristal superan los RD$50,000 por metro lineal. El precio final depende del diámetro, la altura y los acabados.",
   },
 ];
 

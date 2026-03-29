@@ -53,12 +53,33 @@ const services = [
     ),
   },
   {
+    title: 'Portones Eléctricos',
+    text: 'Portones automatizados con motores Powergate, G-Master y Can-Pro Wifi. Fabricamos la estructura e instalamos el motor. Todo en un solo contrato.',
+    href: '/portones-electricos',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    ),
+  },
+  {
     title: 'Trabajos Especiales a Medida',
-    text: 'Decoraciones en hierro, portones eléctricos, estructuras metálicas y cualquier trabajo que pueda imaginar en hierro y acero.',
+    text: 'Decoraciones en hierro, estructuras metálicas, mobiliario y cualquier trabajo que pueda imaginar en hierro y acero.',
     href: '/trabajos-a-medida',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.1-5.1a1 1 0 010-1.42l.71-.71a1 1 0 011.42 0l3.88 3.88 8.89-8.89a1 1 0 011.42 0l.7.71a1 1 0 010 1.41l-10.5 10.5a1 1 0 01-1.42 0z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Mantenimiento y Reparación',
+    text: 'Reparamos rejas oxidadas, portones desalineados y barandas flojas. Pintura anticorrosiva profesional que dura hasta 10 años.',
+    href: '/mantenimiento-herreria',
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
   },
@@ -73,7 +94,7 @@ export default function Services() {
           <h2 className="section-title">Nuestros Servicios de Herrería</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => (
             <a
               key={service.href}

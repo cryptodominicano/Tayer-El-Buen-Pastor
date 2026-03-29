@@ -56,6 +56,20 @@ export const clusterPages: ClusterPageConfig[] = [
     faqCount: 5,
     related: ['rejas', 'escaleras', 'portones'],
   },
+  {
+    key: 'electricos',
+    slug: 'portones-electricos',
+    sectionCount: 4,
+    faqCount: 5,
+    related: ['portones', 'custom', 'mantenimiento'],
+  },
+  {
+    key: 'mantenimiento',
+    slug: 'mantenimiento-herreria',
+    sectionCount: 4,
+    faqCount: 5,
+    related: ['rejas', 'electricos', 'portones'],
+  },
 ];
 
 export function getClusterPage(key: string): ClusterPageConfig | undefined {

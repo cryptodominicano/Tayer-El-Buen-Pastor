@@ -73,7 +73,13 @@ export default function RootLayout({
                 "San Isidro",
                 "Villa Mella",
                 "Los Alcarrizos",
-                "Haina"
+                "Haina",
+                "Alma Rosa I",
+                "Alma Rosa II",
+                "Lucerna",
+                "Invivienda",
+                "Los Corales del Este",
+                "El Almirante"
               ],
               "availableLanguage": ["Spanish"],
               "priceRange": "$$",

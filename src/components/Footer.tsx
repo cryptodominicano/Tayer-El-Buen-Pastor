@@ -72,6 +72,8 @@ export default function Footer() {
                 { label: 'Verjas Perimetrales', href: '/verjas-perimetrales' },
                 { label: 'Puertas de Hierro', href: '/puertas-de-hierro' },
                 { label: 'Trabajos a Medida', href: '/trabajos-a-medida' },
+                { label: 'Portones Eléctricos', href: '/portones-electricos' },
+                { label: 'Mantenimiento', href: '/mantenimiento-herreria' },
               ].map((link) => (
                 <li key={link.href}>
                   <a href={link.href} className="hover:text-gold transition-colors">

@@ -1,15 +1,15 @@
 'use client';
 
 const photos = [
-  { src: '/images/metal-gate-hero.jpeg', alt: 'Portón de hierro decorativo' },
-  { src: '/images/metal-window-guards.jpeg', alt: 'Rejas para ventanas de hierro' },
-  { src: '/images/metal-red-stairs.jpeg', alt: 'Escalera de hierro con acabado rojo' },
-  { src: '/images/metal-door.jpeg', alt: 'Puerta de hierro decorativa' },
-  { src: '/images/metal-railings.jpeg', alt: 'Barandas de hierro para segundo piso' },
-  { src: '/images/metal-spiked-fence.jpeg', alt: 'Verja perimetral con puntas de hierro' },
-  { src: '/images/metal-car-port.jpeg', alt: 'Estructura metálica para carport' },
-  { src: '/images/metal-bunk-bed.jpeg', alt: 'Litera de hierro fabricada a medida' },
-  { src: '/images/metal-garage-doors.jpeg', alt: 'Puertas de garaje de hierro' },
+  { src: '/images/client/porton-ornamental-dorado.webp', alt: 'Portón ornamental gris con volutas y detalles dorados estilo clásico dominicano — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/rejas-decorativas-forjadas.webp', alt: 'Rejas decorativas de hierro forjado con barras torneadas y diseño de abanico — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/baranda-balcon-segundo-piso.webp', alt: 'Baranda de hierro con patrón horizontal y rombos en balcón de segundo piso — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/puerta-hierro-ornamental-arco.webp', alt: 'Puerta de hierro ornamental con arco y vidrio, detalles forjados clásicos — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/porton-garaje-mariposas.webp', alt: 'Portón de garaje doble con motivos de mariposas y hojas forjadas en hierro gris — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/verja-horizontal-puntas.webp', alt: 'Verja perimetral moderna con barras horizontales y puntas de seguridad — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/escalera-roja-exterior.webp', alt: 'Escalera metálica exterior con acabado rojo y baranda de barras horizontales — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/carport-metalico-frontal.webp', alt: 'Estructura metálica curva para estacionamiento techado — Tayer El Buen Pastor, Santo Domingo' },
+  { src: '/images/client/proteccion-galeria-ornamental.webp', alt: 'Protección de galería con hierro decorativo y detalles dorados tipo estrella — Tayer El Buen Pastor, Santo Domingo' },
 ];
 
 export default function Gallery() {

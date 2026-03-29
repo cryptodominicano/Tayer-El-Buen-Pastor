@@ -199,9 +199,13 @@ export default function ClusterPage({ pageKey, title, subtitle, intro, sections:
             <h2 className="font-display text-2xl md:text-3xl font-bold text-iron mb-4">
               {section.title}
             </h2>
-            {section.paragraphs.map((p, j) => (
-              <p key={j} className="text-gray-700 leading-relaxed mb-4">{p}</p>
-            ))}
+            {section.paragraphs.map((p, j) =>
+              p.includes('<a ') ? (
+                <p key={j} className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: p }} />
+              ) : (
+                <p key={j} className="text-gray-700 leading-relaxed mb-4">{p}</p>
+              )
+            )}
             {section.listItems && (
               <ul className="space-y-2 mb-4 ml-4">
                 {section.listItems.map((item, j) => (

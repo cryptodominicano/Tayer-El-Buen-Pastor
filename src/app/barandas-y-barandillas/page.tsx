@@ -94,6 +94,15 @@ En Tayer Christiano conocemos estas normativas a fondo y las aplicamos en cada p
 
 Si necesita barandas de hierro en Santo Domingo, contáctenos para una cotización sin compromiso. Nuestro equipo le asesorará sobre el diseño, material y acabado ideal para su proyecto.`,
   },
+  {
+    id: "acero-inoxidable-precios",
+    title: "Barandas de Acero Inoxidable: Precios y Acabados",
+    content: `Además del hierro forjado tradicional, fabricamos barandas en acero inoxidable 304, el estándar de la industria para aplicaciones arquitectónicas. Este material ofrece resistencia superior a la corrosión sin necesidad de pintura, ideal para el clima húmedo de Santo Domingo y zonas costeras.
+
+Las barandas en acero inoxidable 304 cuestan entre RD$3,300 y RD$4,600 por metro lineal, dependiendo del acabado (satinado o espejo) y el número de hilos horizontales. El acabado satinado ofrece un aspecto contemporáneo con menor mantenimiento, mientras que el acabado espejo refleja luz y aporta elegancia a espacios interiores.
+
+Para diseños de hierros para balcones que combinan funcionalidad con estética, ofrecemos opciones mixtas: estructura de hierro forjado con pasamanos de acero inoxidable, o balaustres de acero con cables tensados que maximizan la visibilidad.`,
+  },
 ];
 
 const faqs = [
@@ -121,6 +130,11 @@ const faqs = [
     question: "¿Qué altura debe tener una baranda de balcón en República Dominicana?",
     answer:
       "La altura mínima recomendada para barandas de balcón es de 1.05 metros medidos desde el nivel del piso terminado. En edificios de gran altura o espacios públicos, la altura puede ser mayor según las normativas locales. Nuestro equipo se asegura de que cada instalación cumpla con los códigos de construcción vigentes.",
+  },
+  {
+    question: "¿Cuánto cuesta una baranda de acero inoxidable en Santo Domingo?",
+    answer:
+      "Las barandas en acero inoxidable 304 cuestan entre RD$3,300 y RD$4,600 por metro lineal, dependiendo del acabado (satinado o espejo) y el número de hilos horizontales. Es una inversión superior al hierro pero con mantenimiento prácticamente nulo y resistencia total a la corrosión.",
   },
 ];
 

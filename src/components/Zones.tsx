@@ -3,7 +3,7 @@
 const zones = [
   {
     title: 'Santo Domingo Este',
-    areas: 'Los Mina, San Isidro, Boca Chica, La Romana, Juan Dolio',
+    areas: 'Los Mina, San Isidro, Alma Rosa I y II, Lucerna, Invivienda, Los Corales del Este, El Almirante, Boca Chica',
     highlight: true,
   },
   {

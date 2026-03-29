@@ -19,11 +19,13 @@ const NAV_LINKS = [
 const SERVICE_LINKS = [
   { label: 'Rejas para Ventanas', href: '/rejas-para-ventanas' },
   { label: 'Portones Residenciales', href: '/portones-residenciales' },
+  { label: 'Portones Eléctricos', href: '/portones-electricos' },
   { label: 'Barandas y Barandillas', href: '/barandas-y-barandillas' },
   { label: 'Escaleras de Caracol', href: '/escaleras-de-caracol' },
   { label: 'Verjas Perimetrales', href: '/verjas-perimetrales' },
   { label: 'Puertas de Hierro', href: '/puertas-de-hierro' },
   { label: 'Trabajos a Medida', href: '/trabajos-a-medida' },
+  { label: 'Mantenimiento', href: '/mantenimiento-herreria' },
 ];
 
 function WhatsAppIcon({ size = 24 }: { size?: number }) {

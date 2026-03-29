@@ -8,11 +8,24 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-[90vh] h-screen w-full flex items-center justify-center overflow-hidden">
-      {/* Background image */}
+      {/* Video Background - hidden on mobile */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover hidden md:block"
+        style={{ filter: 'saturate(0.7) brightness(0.85)' }}
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/videos/barandas-balcon-moderno.webm" type="video/webm" />
+        <source src="/videos/barandas-balcon-moderno.mp4" type="video/mp4" />
+      </video>
+
+      {/* Fallback image on mobile */}
       <img
-        src="/images/metal-gate-hero.jpeg"
-        alt="Herrería artística — portón de hierro decorativo"
-        className="absolute inset-0 w-full h-full object-cover"
+        src="/images/client/porton-ornamental-dorado.webp"
+        alt="Portón ornamental de hierro con detalles dorados — Tayer El Buen Pastor, Santo Domingo"
+        className="absolute inset-0 w-full h-full object-cover block md:hidden"
       />
 
       {/* Dark overlay */}
