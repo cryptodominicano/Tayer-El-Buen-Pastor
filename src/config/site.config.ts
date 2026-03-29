@@ -1,0 +1,16 @@
+export const siteConfig = {
+  name: 'Tayer El Buen Pastor',
+  fullName: 'Taller El Buen Pastor — Herrería y Carpintería Metálica',
+  tagline: 'Rejas, Portones y Escaleras de Caracol en Santo Domingo',
+  domain: 'tayerelbuenpastor.com',
+  url: 'https://tayerelbuenpastor.com',
+  email: 'info@tayerelbuenpastor.com',
+  whatsapp: '18295704821',
+  whatsappMessage: 'Hola, estoy interesado en un trabajo de herrería. ¿Me puede dar una cotización?',
+  address: 'Santo Domingo Este, República Dominicana',
+  zones: 'Santo Domingo Este, Norte, Oeste y Distrito Nacional',
+  colorPrimary: '#1A1A1A',
+  colorAccent: '#C89B2A',
+  colorBackground: '#FAFAFA',
+  ga4Id: 'PENDING',
+};
