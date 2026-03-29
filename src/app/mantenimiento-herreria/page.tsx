@@ -8,12 +8,26 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site.config";
 
 export const metadata: Metadata = {
-  title:
-    "Mantenimiento de Rejas y Portones en Santo Domingo — Reparacion y Pintura Anticorrosiva | Tayer El Buen Pastor",
+  title: "Mantenimiento de Rejas y Portones en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Reparamos rejas, portones y barandas en Santo Domingo. Pintura anticorrosiva, ajuste de bisagras, restauracion de hierro oxidado. Llamenos por WhatsApp.",
+    "Reparación de rejas oxidadas y portones. Pintura anticorrosiva epóxica + poliuretano que dura 5-10 años. Herrero a domicilio en Santo Domingo Este.",
   alternates: {
-    canonical: "/mantenimiento-herreria",
+    canonical: "/mantenimiento-herreria/",
+  },
+  openGraph: {
+    title: "Mantenimiento de Rejas y Portones en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Reparación de rejas oxidadas y portones. Pintura anticorrosiva epóxica + poliuretano que dura 5-10 años. Herrero a domicilio en Santo Domingo Este.",
+    url: "https://tayerelbuenpastor.com/mantenimiento-herreria/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mantenimiento de Rejas y Portones en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Reparación de rejas oxidadas y portones. Pintura anticorrosiva epóxica + poliuretano que dura 5-10 años. Herrero a domicilio en Santo Domingo Este.",
   },
 };
 

@@ -7,11 +7,26 @@ import ClusterPage from "@/components/ClusterPage";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title: "Trabajos de Herrería a Medida en Santo Domingo | Tayer Christiano",
+  title: "Herrería a Medida en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Herrería a medida en Santo Domingo: trabajos artísticos en hierro forjado, estructuras metálicas decorativas, mobiliario, barandas, pérgolas y proyectos únicos. Diseño personalizado con garantía.",
+    "Trabajos de herrería personalizados: estructuras metálicas, mobiliario, pérgolas y proyectos especiales en hierro. Diseño único en Santo Domingo.",
   alternates: {
-    canonical: "/trabajos-a-medida",
+    canonical: "/trabajos-a-medida/",
+  },
+  openGraph: {
+    title: "Herrería a Medida en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Trabajos de herrería personalizados: estructuras metálicas, mobiliario, pérgolas y proyectos especiales en hierro. Diseño único en Santo Domingo.",
+    url: "https://tayerelbuenpastor.com/trabajos-a-medida/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Herrería a Medida en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Trabajos de herrería personalizados: estructuras metálicas, mobiliario, pérgolas y proyectos especiales en hierro. Diseño único en Santo Domingo.",
   },
 };
 
@@ -116,10 +131,10 @@ export default function TrabajosAMedidaPage() {
           pageKey="custom"
           title="Trabajos de Herrería a Medida en Santo Domingo"
           subtitle="Proyectos únicos en hierro forjado: del concepto a la realidad"
-          intro="En Tayer Christiano convertimos sus ideas en piezas de hierro forjado únicas e irrepetibles. Nuestra herrería a medida en Santo Domingo abarca desde mobiliario y elementos decorativos hasta estructuras arquitectónicas y encargos artísticos especiales. Con décadas de experiencia, un taller completamente equipado y artesanos apasionados por su oficio, no hay proyecto que no podamos abordar."
+          intro="La herrer\u00eda a medida en Santo Domingo permite crear piezas \u00fanicas que no existen en ning\u00fan cat\u00e1logo. En Tayer El Buen Pastor llevamos m\u00e1s de 15 a\u00f1os transformando hierro y acero en mobiliario, estructuras arquitect\u00f3nicas, p\u00e9rgolas, esculturas y encargos especiales dise\u00f1ados exclusivamente para cada cliente en Santo Domingo. Con un taller completamente equipado y artesanos especializados en forja tradicional y t\u00e9cnicas modernas, convertimos cualquier idea en una realidad de hierro forjado."
           sections={sections}
           faqs={faqs}
-          metaTitle="Trabajos de Herrería a Medida en Santo Domingo | Tayer Christiano"
+          metaTitle="Herrería a Medida en Santo Domingo | Tayer El Buen Pastor"
         />
       </main>
       <Footer />

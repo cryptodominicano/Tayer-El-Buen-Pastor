@@ -10,6 +10,18 @@ export const metadata: Metadata = {
   title: "Por Qué Elegir Tayer El Buen Pastor — Herrería en Santo Domingo",
   description:
     "Con más de 15 años de experiencia en herrería dominicana, Tayer El Buen Pastor ofrece trabajos en hierro de calidad superior, sin subcontratistas, con garantía y diseños personalizados en Santo Domingo y todo el país.",
+  alternates: {
+    canonical: "/por-que-elegirnos/",
+  },
+  openGraph: {
+    title: "Por Qué Elegir Tayer El Buen Pastor — Herrería en Santo Domingo",
+    description:
+      "Con más de 15 años de experiencia en herrería dominicana, Tayer El Buen Pastor ofrece trabajos en hierro de calidad superior, sin subcontratistas, con garantía y diseños personalizados en Santo Domingo y todo el país.",
+    url: "https://tayerelbuenpastor.com/por-que-elegirnos/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
 };
 
 export default function PorQueElegirnosPage() {

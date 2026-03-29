@@ -7,11 +7,26 @@ import ClusterPage from "@/components/ClusterPage";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title: "Barandas y Barandillas de Hierro en Santo Domingo | Tayer Christiano",
+  title: "Barandas de Hierro y Acero Inoxidable en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Fabricamos barandas y barandillas de hierro forjado a medida en Santo Domingo. Diseños personalizados para escaleras, balcones y terrazas con instalación profesional.",
+    "Barandas para escaleras, balcones y terrazas desde RD$3,300/metro. Hierro forjado y acero inoxidable 304. Fabricación a medida en Santo Domingo.",
   alternates: {
-    canonical: "/barandas-y-barandillas",
+    canonical: "/barandas-y-barandillas/",
+  },
+  openGraph: {
+    title: "Barandas de Hierro y Acero Inoxidable en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Barandas para escaleras, balcones y terrazas desde RD$3,300/metro. Hierro forjado y acero inoxidable 304. Fabricación a medida en Santo Domingo.",
+    url: "https://tayerelbuenpastor.com/barandas-y-barandillas/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Barandas de Hierro y Acero Inoxidable en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Barandas para escaleras, balcones y terrazas desde RD$3,300/metro. Hierro forjado y acero inoxidable 304. Fabricación a medida en Santo Domingo.",
   },
 };
 
@@ -101,7 +116,9 @@ Si necesita barandas de hierro en Santo Domingo, contáctenos para una cotizaci�
 
 Las barandas en acero inoxidable 304 cuestan entre RD$3,300 y RD$4,600 por metro lineal, dependiendo del acabado (satinado o espejo) y el número de hilos horizontales. El acabado satinado ofrece un aspecto contemporáneo con menor mantenimiento, mientras que el acabado espejo refleja luz y aporta elegancia a espacios interiores.
 
-Para diseños de hierros para balcones que combinan funcionalidad con estética, ofrecemos opciones mixtas: estructura de hierro forjado con pasamanos de acero inoxidable, o balaustres de acero con cables tensados que maximizan la visibilidad.`,
+Para diseños de hierros para balcones que combinan funcionalidad con estética, ofrecemos opciones mixtas: estructura de hierro forjado con pasamanos de acero inoxidable, o balaustres de acero con cables tensados que maximizan la visibilidad.
+
+Si necesita una escalera completa con baranda integrada, vea nuestras <a href="/escaleras-de-caracol/">escaleras de caracol en hierro</a> fabricadas completamente a medida.`,
   },
 ];
 
@@ -148,10 +165,10 @@ export default function BarandasYBarandillasPage() {
           pageKey="barandas"
           title="Barandas y Barandillas de Hierro en Santo Domingo"
           subtitle="Diseño, fabricación e instalación de barandas de hierro forjado a medida para escaleras, balcones y terrazas en toda República Dominicana."
-          intro="En Tayer Christiano somos especialistas en la fabricación de barandas y barandillas de hierro en Santo Domingo. Desde barandas ornamentales para residencias coloniales hasta sistemas modernos para edificios comerciales, nuestro equipo transforma el hierro en piezas funcionales y decorativas que elevan la seguridad y el valor estético de cualquier propiedad. Trabajamos con hierro forjado, acero inoxidable y combinaciones de materiales para ofrecer soluciones adaptadas a cada necesidad y presupuesto."
+          intro="Las barandas de hierro en Santo Domingo protegen escaleras, balcones y terrazas con estilo y resistencia comprobada. En Tayer El Buen Pastor fabricamos barandas de acero inoxidable 304 desde RD$3,300 por metro lineal y barandas de hierro forjado desde RD$3,500 por metro lineal, con dise\u00f1os a medida y acabado anticorrosivo incluido. Con m\u00e1s de 15 a\u00f1os de experiencia en herrer\u00eda en Santo Domingo, cada baranda sale de nuestro taller cortada, soldada y terminada como pieza \u00fanica para su propiedad."
           sections={sections}
           faqs={faqs}
-          metaTitle="Barandas y Barandillas de Hierro en Santo Domingo | Tayer Christiano"
+          metaTitle="Barandas de Hierro y Acero Inoxidable en Santo Domingo | Tayer El Buen Pastor"
         />
       </main>
       <Footer />

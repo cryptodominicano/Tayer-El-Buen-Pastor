@@ -7,11 +7,26 @@ import ClusterPage from "@/components/ClusterPage";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title: "Verjas Perimetrales de Hierro en Santo Domingo | Tayer Christiano",
+  title: "Verjas Perimetrales de Hierro en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Fabricamos e instalamos verjas de hierro en Santo Domingo para residencias y comercios. Diseños personalizados, materiales duraderos y máxima seguridad perimetral. Cotización gratis.",
+    "Verjas de hierro para seguridad perimetral desde RD$3,500/metro. Residencial y comercial. Fabricación e instalación en Santo Domingo. Cotización gratis.",
   alternates: {
-    canonical: "/verjas-perimetrales",
+    canonical: "/verjas-perimetrales/",
+  },
+  openGraph: {
+    title: "Verjas Perimetrales de Hierro en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Verjas de hierro para seguridad perimetral desde RD$3,500/metro. Residencial y comercial. Fabricación e instalación en Santo Domingo. Cotización gratis.",
+    url: "https://tayerelbuenpastor.com/verjas-perimetrales/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Verjas Perimetrales de Hierro en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Verjas de hierro para seguridad perimetral desde RD$3,500/metro. Residencial y comercial. Fabricación e instalación en Santo Domingo. Cotización gratis.",
   },
 };
 
@@ -108,10 +123,10 @@ export default function VerjaPerimetralesPage() {
           pageKey="verjas"
           title="Verjas Perimetrales de Hierro en Santo Domingo"
           subtitle="Protección perimetral robusta con diseño personalizado para residencias y comercios"
-          intro="En Tayer Christiano somos especialistas en la fabricación e instalación de verjas de hierro en Santo Domingo. Combinamos acero de alta resistencia, tratamientos anticorrosión de última generación y diseños que se adaptan a la arquitectura de su propiedad. Ya sea para proteger su hogar, negocio o proyecto industrial, nuestras verjas perimetrales ofrecen seguridad real sin renunciar a la estética."
+          intro="Las verjas perimetrales en Santo Domingo son la barrera f\u00edsica m\u00e1s efectiva para proteger residencias y comercios. En Tayer El Buen Pastor fabricamos e instalamos verjas de hierro desde RD$3,500 por metro lineal, con tratamiento anticorrosivo de doble capa y dise\u00f1os que se adaptan a la arquitectura de su propiedad. Con m\u00e1s de 15 a\u00f1os de experiencia en herrer\u00eda en Santo Domingo, protegemos hogares y negocios en todo el Gran Santo Domingo."
           sections={sections}
           faqs={faqs}
-          metaTitle="Verjas Perimetrales de Hierro en Santo Domingo | Tayer Christiano"
+          metaTitle="Verjas Perimetrales de Hierro en Santo Domingo | Tayer El Buen Pastor"
         />
       </main>
       <Footer />

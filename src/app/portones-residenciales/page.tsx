@@ -7,12 +7,26 @@ import ClusterPage from "@/components/ClusterPage";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title:
-    "Portones Residenciales en Santo Domingo — Hierro y Acero a Medida",
+  title: "Portones de Hierro Residenciales en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Fabricaci\u00f3n e instalaci\u00f3n de portones residenciales de hierro y acero en Santo Domingo. Portones abatibles, corredizos y autom\u00e1ticos a medida. Cotizaci\u00f3n gratis.",
+    "Portones abatibles y corredizos de hierro a medida desde RD$35,000. Fabricación e instalación en Santo Domingo. 15+ años de experiencia. Cotización gratis.",
   alternates: {
-    canonical: "/portones-residenciales",
+    canonical: "/portones-residenciales/",
+  },
+  openGraph: {
+    title: "Portones de Hierro Residenciales en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Portones abatibles y corredizos de hierro a medida desde RD$35,000. Fabricación e instalación en Santo Domingo. 15+ años de experiencia. Cotización gratis.",
+    url: "https://tayerelbuenpastor.com/portones-residenciales/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Portones de Hierro Residenciales en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Portones abatibles y corredizos de hierro a medida desde RD$35,000. Fabricación e instalación en Santo Domingo. 15+ años de experiencia. Cotización gratis.",
   },
 };
 
@@ -26,7 +40,7 @@ export default function PortonesResidencialesPage() {
           pageKey="portones"
           title="Portones Residenciales en Santo Domingo — Hierro y Acero a Medida"
           subtitle="Portones de hierro forjado y acero dise\u00f1ados a la medida de su residencia. Seguridad, elegancia y durabilidad garantizada."
-          intro="El port\u00f3n es la carta de presentaci\u00f3n de cualquier residencia y, al mismo tiempo, su principal barrera de seguridad. En Santo Domingo, donde la protecci\u00f3n perimetral es una prioridad para todo propietario, contar con un port\u00f3n de hierro o acero fabricado a medida marca la diferencia entre una propiedad vulnerable y una verdaderamente protegida. En Tayer Christiano nos especializamos en la fabricaci\u00f3n e instalaci\u00f3n de portones residenciales que combinan la resistencia del hierro con dise\u00f1os que realzan la arquitectura de su hogar, ya sea en Naco, Bella Vista, Los Prados o cualquier sector del Gran Santo Domingo."
+          intro="Los portones residenciales de hierro en Santo Domingo son la entrada principal de su hogar y su primera l\u00ednea de seguridad. En Tayer El Buen Pastor fabricamos portones abatibles y corredizos a medida desde RD$35,000, con acabado anticorrosivo y garant\u00eda de 2 a\u00f1os. M\u00e1s de 15 a\u00f1os fabricando portones de hierro en Santo Domingo Este y todo el Gran Santo Domingo."
           sections={[
             {
               title: "\u00bfQu\u00e9 define un buen port\u00f3n residencial?",
@@ -95,7 +109,8 @@ export default function PortonesResidencialesPage() {
               paragraphs: [
                 "Nuestro proceso comienza con una visita t\u00e9cnica gratuita donde evaluamos las condiciones del sitio: ancho de la entrada, tipo de muro o columnas, nivelaci\u00f3n del terreno y acceso para la instalaci\u00f3n. En esa misma visita, discutimos las preferencias de dise\u00f1o y tomamos medidas precisas.",
                 "La fabricaci\u00f3n de un port\u00f3n residencial est\u00e1ndar toma entre 10 y 15 d\u00edas laborables. Portones de mayor envergadura o con dise\u00f1os art\u00edsticos complejos pueden requerir de 20 a 25 d\u00edas. Durante la fabricaci\u00f3n, el cliente recibe fotos del avance para aprobar cada etapa antes de continuar.",
-                "La instalaci\u00f3n en sitio toma generalmente un d\u00eda completo. Incluye el montaje de las columnas de soporte si es necesario, la colocaci\u00f3n del port\u00f3n, la alineaci\u00f3n y nivelaci\u00f3n precisa, la instalaci\u00f3n de cerraduras y accesorios, y la verificaci\u00f3n del correcto funcionamiento de apertura y cierre. Dejamos el \u00e1rea limpia y al cliente completamente satisfecho."
+                "La instalaci\u00f3n en sitio toma generalmente un d\u00eda completo. Incluye el montaje de las columnas de soporte si es necesario, la colocaci\u00f3n del port\u00f3n, la alineaci\u00f3n y nivelaci\u00f3n precisa, la instalaci\u00f3n de cerraduras y accesorios, y la verificaci\u00f3n del correcto funcionamiento de apertura y cierre. Dejamos el \u00e1rea limpia y al cliente completamente satisfecho.",
+                "\u00bfBusca un port\u00f3n con apertura autom\u00e1tica? Conozca nuestros <a href=\"/portones-electricos/\">portones el\u00e9ctricos y automatizados</a> con motores Powergate, G-Master y Can-Pro Wifi."
               ],
               listItems: [
                 "Visita t\u00e9cnica y cotizaci\u00f3n: 1-2 d\u00edas",
@@ -128,7 +143,7 @@ export default function PortonesResidencialesPage() {
               a: "S\u00ed, es una de las opciones m\u00e1s solicitadas. Integramos una puerta peatonal dentro de una de las hojas del port\u00f3n, con su propia cerradura independiente. Esto permite el acceso a pie sin necesidad de abrir todo el port\u00f3n vehicular, lo que mejora la seguridad y la comodidad diaria.",
             },
           ]}
-          metaTitle="Portones Residenciales en Santo Domingo — Hierro y Acero a Medida"
+          metaTitle="Portones de Hierro Residenciales en Santo Domingo | Tayer El Buen Pastor"
         />
       </main>
       <Footer />

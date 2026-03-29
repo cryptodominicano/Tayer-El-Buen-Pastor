@@ -7,11 +7,26 @@ import ClusterPage from "@/components/ClusterPage";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title: "Escaleras de Caracol en Hierro — Santo Domingo | Tayer Christiano",
+  title: "Escaleras de Caracol en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Fabricación de escaleras de caracol en hierro forjado a medida en Santo Domingo. Soluciones compactas, elegantes y seguras para espacios reducidos. Diseño personalizado e instalación profesional.",
+    "Escaleras de caracol en hierro desde RD$9,500. Diseño a medida para interiores y exteriores. Fabricación e instalación en Santo Domingo. Cotización gratis.",
   alternates: {
-    canonical: "/escaleras-de-caracol",
+    canonical: "/escaleras-de-caracol/",
+  },
+  openGraph: {
+    title: "Escaleras de Caracol en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Escaleras de caracol en hierro desde RD$9,500. Diseño a medida para interiores y exteriores. Fabricación e instalación en Santo Domingo. Cotización gratis.",
+    url: "https://tayerelbuenpastor.com/escaleras-de-caracol/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Escaleras de Caracol en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Escaleras de caracol en hierro desde RD$9,500. Diseño a medida para interiores y exteriores. Fabricación e instalación en Santo Domingo. Cotización gratis.",
   },
 };
 
@@ -113,7 +128,9 @@ Escalera premium (hierro forjado, gauge pesado): desde RD$13,000 hasta RD$16,000
 
 Escalera de lujo (acero inoxidable con detalles en cristal): desde RD$50,000 por metro lineal. Para proyectos arquitectónicos de alto nivel.
 
-Estos precios son referenciales y varían según la altura piso a piso, el diámetro y los acabados seleccionados. Contáctenos para una cotización personalizada basada en las medidas exactas de su espacio.`,
+Estos precios son referenciales y varían según la altura piso a piso, el diámetro y los acabados seleccionados. Contáctenos para una cotización personalizada basada en las medidas exactas de su espacio.
+
+Para escaleras convencionales que necesitan baranda, visite nuestra página de <a href="/barandas-y-barandillas/">barandas y pasamanos para escaleras</a>.`,
   },
 ];
 
@@ -160,10 +177,10 @@ export default function EscalerasDeCaracolPage() {
           pageKey="escaleras"
           title="Escaleras de Caracol en Hierro — Santo Domingo"
           subtitle="Fabricación e instalación de escaleras de caracol en hierro forjado a medida. Soluciones compactas y elegantes para conectar niveles en espacios reducidos."
-          intro="Las escaleras de caracol son la solución perfecta cuando el espacio es limitado pero la exigencia de calidad y diseño es alta. En Tayer Christiano fabricamos escaleras de caracol en hierro forjado completamente a medida, adaptadas a las dimensiones exactas de su espacio y al estilo de su propiedad en Santo Domingo. Desde escaleras compactas para acceso a azoteas hasta piezas escultóricas para vestíbulos de doble altura, cada proyecto recibe el mismo nivel de atención al detalle, precisión en la fabricación y calidad en los acabados."
+          intro="Las escaleras de caracol en Santo Domingo son la soluci\u00f3n ideal para conectar niveles cuando el espacio es limitado. En Tayer El Buen Pastor fabricamos escaleras de caracol en hierro desde RD$9,500 por unidad de 10 pelda\u00f1os, completamente a medida y con acabado anticorrosivo incluido. Con m\u00e1s de 15 a\u00f1os de experiencia en herrer\u00eda en Santo Domingo, dise\u00f1amos cada escalera para las dimensiones exactas de su espacio — desde accesos a azoteas hasta piezas escult\u00f3ricas para vest\u00edbulos de doble altura."
           sections={sections}
           faqs={faqs}
-          metaTitle="Escaleras de Caracol en Hierro — Santo Domingo | Tayer Christiano"
+          metaTitle="Escaleras de Caracol en Santo Domingo | Tayer El Buen Pastor"
         />
       </main>
       <Footer />

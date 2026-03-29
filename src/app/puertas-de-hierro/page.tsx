@@ -7,11 +7,26 @@ import ClusterPage from "@/components/ClusterPage";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title: "Puertas de Hierro en Santo Domingo — Seguridad y Diseño | Tayer Christiano",
+  title: "Puertas de Hierro en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Puertas de hierro en Santo Domingo: fabricación a medida de puertas de entrada, puertas de seguridad y puertas decorativas. Cerraduras de alta gama, diseños exclusivos y garantía. Solicite su cotización.",
+    "Puertas de hierro decorativas y de seguridad desde RD$18,000. Cerraduras multipunto, diseños a medida. Fabricación e instalación en Santo Domingo.",
   alternates: {
-    canonical: "/puertas-de-hierro",
+    canonical: "/puertas-de-hierro/",
+  },
+  openGraph: {
+    title: "Puertas de Hierro en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Puertas de hierro decorativas y de seguridad desde RD$18,000. Cerraduras multipunto, diseños a medida. Fabricación e instalación en Santo Domingo.",
+    url: "https://tayerelbuenpastor.com/puertas-de-hierro/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Puertas de Hierro en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Puertas de hierro decorativas y de seguridad desde RD$18,000. Cerraduras multipunto, diseños a medida. Fabricación e instalación en Santo Domingo.",
   },
 };
 
@@ -70,7 +85,9 @@ A continuación, nuestro equipo de diseño elabora bocetos digitales y renders t
 
 Una vez aprobado el diseño, la fabricación toma entre 10 y 20 días hábiles dependiendo de la complejidad. Durante este período, el cliente recibe actualizaciones fotográficas del avance en taller. La instalación se programa en coordinación con el cliente y se completa generalmente en un solo día para puertas sencillas o en dos jornadas para puertas dobles o blindadas.
 
-Entregamos cada puerta con garantía escrita de tres años que cubre defectos de fabricación, fallas en soldaduras y deterioro prematuro del acabado bajo uso normal. Además, ofrecemos un plan de mantenimiento anual opcional que incluye revisión de cerraduras, lubricación de bisagras y retoque de pintura en puntos de desgaste.`,
+Entregamos cada puerta con garantía escrita de tres años que cubre defectos de fabricación, fallas en soldaduras y deterioro prematuro del acabado bajo uso normal. Además, ofrecemos un plan de mantenimiento anual opcional que incluye revisión de cerraduras, lubricación de bisagras y retoque de pintura en puntos de desgaste.
+
+¿Su puerta de hierro necesita restauración? Ofrecemos servicio de <a href="/mantenimiento-herreria/">restauración y pintura de puertas</a> con sistema anticorrosivo profesional.`,
   },
 ];
 
@@ -112,10 +129,10 @@ export default function PuertasDeHierroPage() {
           pageKey="puertas"
           title="Puertas de Hierro en Santo Domingo — Seguridad y Diseño"
           subtitle="Puertas a medida que protegen su hogar y realzan su fachada"
-          intro="En Tayer Christiano diseñamos y fabricamos puertas de hierro en Santo Domingo que combinan máxima seguridad con acabados de primera calidad. Desde puertas de entrada residencial con detalles forjados a mano hasta puertas blindadas para comercios y oficinas, cada proyecto refleja nuestro compromiso con la excelencia artesanal y la protección de su patrimonio."
+          intro="Las puertas de hierro en Santo Domingo son la protecci\u00f3n m\u00e1s robusta para la entrada de su hogar o negocio. En Tayer El Buen Pastor fabricamos puertas de hierro a medida desde RD$18,000, con cerraduras multipunto, acabado anticorrosivo de triple capa y garant\u00eda de 3 a\u00f1os. Con m\u00e1s de 15 a\u00f1os de experiencia en herrer\u00eda en Santo Domingo, cada puerta se dise\u00f1a al mil\u00edmetro para el vano exacto de su propiedad."
           sections={sections}
           faqs={faqs}
-          metaTitle="Puertas de Hierro en Santo Domingo — Seguridad y Diseño | Tayer Christiano"
+          metaTitle="Puertas de Hierro en Santo Domingo | Tayer El Buen Pastor"
         />
       </main>
       <Footer />

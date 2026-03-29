@@ -84,7 +84,7 @@ function FAQAccordion({ faqs }: { faqs: FAQItem[] }) {
               </svg>
             </button>
             <div className={`overflow-hidden transition-all duration-200 ${isOpen ? 'max-h-[600px] pb-5' : 'max-h-0'}`}>
-              <p className="text-gray-600 leading-relaxed">{faq.a}</p>
+              <p className={`text-gray-600 leading-relaxed${i === 0 ? ' speakable-faq-answer' : ''}`}>{faq.a}</p>
             </div>
           </div>
         );
@@ -168,6 +168,20 @@ export default function ClusterPage({ pageKey, title, subtitle, intro, sections:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            speakable: {
+              '@type': 'SpeakableSpecification',
+              cssSelector: ['.speakable-intro', '.speakable-faq-answer'],
+            },
+            url: `${siteConfig.url}/${config?.slug}/`,
+          })
+        }}
+      />
 
       {/* Hero with breadcrumb */}
       <header className="bg-iron pt-32 md:pt-36 pb-16 md:pb-20 px-6">

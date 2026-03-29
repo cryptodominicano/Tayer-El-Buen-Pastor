@@ -7,12 +7,26 @@ import ClusterPage from "@/components/ClusterPage";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title:
-    "Rejas para Ventanas en Santo Domingo — Fabricaci\u00f3n e Instalaci\u00f3n",
+  title: "Rejas para Ventanas en Santo Domingo | Tayer El Buen Pastor",
   description:
-    "Fabricaci\u00f3n e instalaci\u00f3n de rejas para ventanas en Santo Domingo. Dise\u00f1os decorativos y de seguridad en hierro forjado a medida. Cotizaci\u00f3n gratis. Llame ahora.",
+    "Fabricamos rejas de hierro galvanizado para ventanas desde RD$4,000. Diseños decorativos y de seguridad a medida. Cotización gratis por WhatsApp en Santo Domingo.",
   alternates: {
-    canonical: "/rejas-para-ventanas",
+    canonical: "/rejas-para-ventanas/",
+  },
+  openGraph: {
+    title: "Rejas para Ventanas en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Fabricamos rejas de hierro galvanizado para ventanas desde RD$4,000. Diseños decorativos y de seguridad a medida. Cotización gratis por WhatsApp en Santo Domingo.",
+    url: "https://tayerelbuenpastor.com/rejas-para-ventanas/",
+    siteName: "Tayer El Buen Pastor",
+    locale: "es_DO",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rejas para Ventanas en Santo Domingo | Tayer El Buen Pastor",
+    description:
+      "Fabricamos rejas de hierro galvanizado para ventanas desde RD$4,000. Diseños decorativos y de seguridad a medida. Cotización gratis por WhatsApp en Santo Domingo.",
   },
 };
 
@@ -26,7 +40,7 @@ export default function RejasParaVentanasPage() {
           pageKey="rejas"
           title="Rejas para Ventanas en Santo Domingo — Fabricaci\u00f3n e Instalaci\u00f3n"
           subtitle="Proteja su hogar con rejas de hierro fabricadas a medida. Dise\u00f1os decorativos y de seguridad para todo tipo de ventanas."
-          intro="En la Rep\u00fablica Dominicana, la seguridad del hogar comienza por las ventanas. Seg\u00fan estudios de seguridad residencial, aproximadamente el 85% de los intentos de intrusi\u00f3n se producen a trav\u00e9s de ventanas y puertas sin protecci\u00f3n adecuada. Las rejas para ventanas en Santo Domingo no son simplemente un accesorio: representan la primera l\u00ednea de defensa de su familia y sus bienes. En Tayer Christiano llevamos a\u00f1os fabricando e instalando rejas de hierro que combinan resistencia estructural con acabados est\u00e9ticos que realzan la fachada de cualquier propiedad, ya sea una vivienda unifamiliar en Los Alcarrizos, un apartamento en Gazcue o una residencia en Arroyo Hondo."
+          intro="Las rejas para ventanas en Santo Domingo son el primer sistema de seguridad del hogar dominicano. En Tayer El Buen Pastor fabricamos e instalamos rejas de hierro galvanizado a medida desde RD$4,000 por unidad en todo el Gran Santo Domingo. Con m\u00e1s de 15 a\u00f1os de experiencia, usamos hierro galvanizado — no hierro negro — para garantizar que su reja resista el clima tropical sin oxidarse."
           sections={[
             {
               title: "\u00bfQu\u00e9 son las rejas para ventanas y por qu\u00e9 son importantes?",
@@ -146,7 +160,7 @@ export default function RejasParaVentanasPage() {
               a: "Una reja est\u00e1ndar para ventana cuesta entre RD$4,000 y RD$10,000 por unidad, dependiendo del dise\u00f1o y el material. Proyectos completos con 12 ventanas y balc\u00f3n rondan los RD$260,000 con hierro galvanizado e instalaci\u00f3n incluida. Cont\u00e1ctenos por WhatsApp para una cotizaci\u00f3n exacta seg\u00fan las medidas de su propiedad.",
             },
           ]}
-          metaTitle="Rejas para Ventanas en Santo Domingo — Fabricaci\u00f3n e Instalaci\u00f3n"
+          metaTitle="Rejas para Ventanas en Santo Domingo | Tayer El Buen Pastor"
         />
       </main>
       <Footer />
