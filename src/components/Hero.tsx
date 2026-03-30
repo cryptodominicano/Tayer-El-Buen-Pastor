@@ -17,8 +17,8 @@ export default function Hero() {
         loop
         playsInline
       >
-        <source src="/videos/barandas-balcon-moderno.webm" type="video/webm" />
-        <source src="/videos/barandas-balcon-moderno.mp4" type="video/mp4" />
+        <source src="/videos/hero-banner.webm" type="video/webm" />
+        <source src="/videos/hero-banner-opt.mp4" type="video/mp4" />
       </video>
 
       {/* Fallback image on mobile */}
